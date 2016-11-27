@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{027E1AFC-4BD5-B4EF-3D0B-8C7EDFFFB5E9}") = "Pet_conditions", "Assembly-CSharp.csproj", "{53757D58-63D3-805C-3A50-CCCD039921BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53757D58-63D3-805C-3A50-CCCD039921BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53757D58-63D3-805C-3A50-CCCD039921BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53757D58-63D3-805C-3A50-CCCD039921BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53757D58-63D3-805C-3A50-CCCD039921BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
