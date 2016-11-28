@@ -41,8 +41,7 @@ public class PlayerPet : MonoBehaviour {
             case PetState.Eat:
                 break;
             case PetState.Play:
-                GameManager.Inst.InitStatePlay();
-
+                GameManager.Instance.InitStatePlay();
                 break;
             case PetState.Walk:
                 break;
@@ -74,7 +73,7 @@ public class PlayerPet : MonoBehaviour {
 
     void Update ()
     {
-        if (GameManager.Inst.isGameStop) return;
+        if (GameManager.Instance.isGameStop) return;
         petState[(int)state]();
     }
 }
