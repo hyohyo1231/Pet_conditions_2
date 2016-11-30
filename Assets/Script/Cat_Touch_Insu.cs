@@ -127,6 +127,4 @@ public class Cat_Touch_Insu : MonoBehaviour {
 	}
 
 
-
-
 }
